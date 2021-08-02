@@ -6,7 +6,12 @@ module.exports = {
             colors: {
                 'blue-ice': '#C5E4E7',
                 'blue-sharpe': '#00474B',
-                'blue-java': '#26C2AD'
+                'blue-java': '#26C2AD',
+                'blue-squeeze': '#F3F8FB'
+            },
+
+            width: {
+                '700': '700px'
             }
         },
     },

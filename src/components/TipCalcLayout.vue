@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h3><span>SPLI</span><br><span>TTER</span></h3>
+        <h3 class="leading-5 tracking-widest font-medium text-xl text-center text-blue-sharpe"><span>SPLI</span><br><span>TTER</span></h3>
 
-        <div class="flex items-center justify-between space-x-5">
+        <div class="bg-white flex items-center justify-between space-x-5 p-8 rounded-xl mt-16 w-700">
             <Form/>
 
             <Details/>
