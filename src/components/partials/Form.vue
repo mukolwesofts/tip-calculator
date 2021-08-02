@@ -13,7 +13,6 @@
                     </div>
                     <input
                     type="text"
-                    disabled
                     class="flex-shrink flex-grow flex-auto leading-normal w-px border-0 h-8 border-grey-light rounded rounded-l-none px-3 self-center relative bg-transparent text-base outline-none text-right text-blue-sharpe"
                     placeholder="0.00"
                     />

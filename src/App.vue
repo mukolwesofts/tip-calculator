@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-blue-ice flex items-center justify-center">
+  <div class="h-full md:min-h-screen bg-blue-ice flex flex-col md:flex-row items-center justify-center">
       <TipCalc></TipCalc>
   </div>
 </template>
