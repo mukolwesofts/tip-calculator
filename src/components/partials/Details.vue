@@ -8,7 +8,7 @@
                 </div>
 
                 <div class="text-blue-java">
-                    <p class="text-3xl">$4.27</p>
+                    <p class="text-3xl">${{totalTip}}</p>
                 </div>
             </div>
 
@@ -19,12 +19,12 @@
                 </div>
 
                 <div class="text-blue-java">
-                    <p class="text-3xl">$32.79</p>
+                    <p class="text-3xl">${{totalBill}}</p>
                 </div>
             </div>
 
             <div class="mt-20 w-full">
-                <button class="btn btn-block rounded-md h-8 w-full bg-blue-java">RESET</button>
+                <button class="btn btn-block rounded-md h-8 w-full bg-blue-java" @click="$emit('reset-calculator')">RESET</button>
             </div>
         </div>
     </div>
@@ -33,6 +33,17 @@
 <script>
 export default {
     
-name: "Details"
+    name: "Details",
+
+    props: {
+        totalTip: {
+            type: String,
+            required: true
+        },
+        totalBill: {
+            type: String,
+            required: true
+        }
+    }
 }
 </script>
