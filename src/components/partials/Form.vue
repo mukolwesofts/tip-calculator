@@ -6,7 +6,7 @@
                 <div class="flex flex-wrap items-center w-full mb-4 relative h-8 bg-blue-ice bg-opacity-25 rounded">
                     <div class="flex items-center justify-center w-4 p-4 h-full">
                         <span
-                            class="flex items-center leading-normal bg-transparent px-3 border-0 rounded rounded-r-none text-sm text-gray-600"
+                            class="flex items-center leading-normal bg-transparent px-3 border-0 rounded rounded-r-none text-sm text-gray-400"
                         >
                             <i class="fas fa-dollar-sign"></i>
                         </span>
@@ -14,7 +14,7 @@
                     <input
                     type="text"
                     disabled
-                    class="flex-shrink flex-grow flex-auto leading-normal w-px border-0 h-8 border-grey-light rounded rounded-l-none px-3 self-center relative bg-transparent text-base outline-none text-right"
+                    class="flex-shrink flex-grow flex-auto leading-normal w-px border-0 h-8 border-grey-light rounded rounded-l-none px-3 self-center relative bg-transparent text-base outline-none text-right text-blue-sharpe"
                     placeholder="0.00"
                     />
                 </div>
@@ -35,20 +35,23 @@
         </div>
 
         <div class="mt-6">
-            <p class="text-sm text-blue-sharpe">Number of People</p>
+            <div class="flex items-center justify-between">
+                <p class="text-sm text-blue-sharpe">Number of People</p>
+                <p class="text-xs text-red-500">Can't be zero</p>
+            </div>
 
             <form action="" class="mt-2 flex flex-col w-full">
                 <div class="flex flex-wrap items-center w-full mb-4 relative h-8 bg-blue-ice bg-opacity-25 rounded">
                     <div class="flex items-center justify-center w-4 p-4 h-full">
                         <span
-                            class="flex items-center leading-normal bg-transparent px-3 border-0 rounded rounded-r-none text-sm text-gray-600"
+                            class="flex items-center leading-normal bg-transparent px-3 border-0 rounded rounded-r-none text-sm text-gray-400"
                         >
                             <i class="fas fa-user"></i>
                         </span>
                     </div>
                     <input
                     type="text"
-                    class="flex-shrink flex-grow flex-auto leading-normal w-px border-0 h-8 border-grey-light rounded rounded-l-none px-3 self-center relative bg-transparent text-base outline-none text-right"
+                    class="flex-shrink flex-grow flex-auto leading-normal w-px border-0 h-8 border-grey-light rounded rounded-l-none px-3 self-center relative bg-transparent text-base outline-none text-right text-blue-sharpe"
                     placeholder="0"
                     />
                 </div>
