@@ -128,7 +128,6 @@
                 immediate: true,
                 handler: function(val){
                     if(this.resetCalc) {
-                        console.log(this.totalBill);
                         this.totalBill = '';
                         this.totalPeople = 1;
                         this.totalTip = '';
